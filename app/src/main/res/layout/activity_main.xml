@@ -67,9 +67,23 @@
             android:background="#2AC8B9"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
+            android:onClick="goToLog"
             android:text="Log Body Temperature"
             android:textColor="#090808"
             android:textColorHighlight="#FBFAFA"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#34CFC1"
+            android:onClick="openMechanismLink"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="Mechanism of Fever"
+            android:textColor="#0C0C0C"
             android:textSize="24sp" />
 
         <View
@@ -86,6 +100,7 @@
             android:background="#09C6B5"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
+            android:onClick="goToNormal"
             android:text="Check Normal Range"
             android:textColor="#090909"
             android:textSize="24sp" />
@@ -95,18 +110,6 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="?android:attr/listDivider" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#34CFC1"
-            android:paddingLeft="15dp"
-            android:paddingTop="10dp"
-            android:text="Mechanism of Fever"
-            android:textColor="#0C0C0C"
-            android:textSize="24sp" />
 
         <View
             android:id="@+id/divider3"
@@ -122,6 +125,7 @@
             android:background="#31D6C7"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
+            android:onClick="openHandleFeverLink"
             android:text="Handle Fever"
             android:textColor="#040404"
             android:textSize="24sp" />
