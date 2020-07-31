@@ -14,5 +14,8 @@
     <string name="handle_fever">Handle Fever</string>
     <string name="normal_body_temperature">Normal Body Temperature</string>
     <string name="normalLangeTextview">normalRangeText</string>
+    <string name="please_put_your_body_temperature">Please put your body temperature</string>
+    <string name="save">Save</string>
+    <string name="back_to_home">BACK TO HOME</string>
 
 </resources>
