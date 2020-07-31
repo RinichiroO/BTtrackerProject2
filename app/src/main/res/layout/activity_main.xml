@@ -68,7 +68,7 @@
             android:onClick="goToLog"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
-            android:text="Log Body Temperature"
+            android:text="@string/log_body_temperature"
             android:textColor="#090808"
             android:textColorHighlight="#FBFAFA"
             android:textSize="24sp" />
@@ -88,7 +88,7 @@
             android:onClick="openMechanismLink"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
-            android:text="Mechanism of Fever"
+            android:text="@string/mechanism_of_fever"
             android:textColor="#0C0C0C"
             android:textSize="24sp" />
 
@@ -107,7 +107,7 @@
             android:onClick="goToNormal"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
-            android:text="Check Normal Range"
+            android:text="@string/check_normal_range"
             android:textColor="#090909"
             android:textSize="24sp" />
 
@@ -126,7 +126,7 @@
             android:onClick="openHandleFeverLink"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
-            android:text="Handle Fever"
+            android:text="@string/handle_fever"
             android:textColor="#040404"
             android:textSize="24sp" />
     </LinearLayout>
